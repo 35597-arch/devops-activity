@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: echo "Deploying app..."
-      - run: echo "Secret: ${{ secrets.DEPLOY_KEY }}"
+      - run: echo Secret: ${{ secrets.DEPLOY_KEY }}
